@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: swagger-spring-webapi
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: swagger-spring-webapi
+    spec:
+      containers:
+      - name: swagger-spring-webapi
+        image: registry.gitlab.com/valerio/swagger-spring-webapi
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+        - name: registry.gitlab.com
