@@ -1,4 +1,4 @@
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.epos-ip.org/", xmlns = {
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.epos-ip.org/terms.html", xmlns = {
 		@javax.xml.bind.annotation.XmlNs(prefix = "eposap", namespaceURI = "http://www.epos-ip.org/terms.html"),
 		@javax.xml.bind.annotation.XmlNs(prefix = "dct", namespaceURI = "http://purl.org/dc/terms/"),
 		@javax.xml.bind.annotation.XmlNs(prefix = "foaf", namespaceURI = "http://xmlns.com/foaf/0.1/"),
