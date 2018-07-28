@@ -21,7 +21,6 @@ public class Address {
 	private String country;
 
 	public String getStreet() {
-		System.out.println(street);
 		return street;
 	}
 
